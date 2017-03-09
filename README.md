@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/ProtaconSolutions/Node-NFC-Reader.svg?branch=master)](https://travis-ci.org/ProtaconSolutions/Node-NFC-Reader)
+
 # NFC-Reader
 Nodejs driver package for ACR1222L NFC reader.
 
