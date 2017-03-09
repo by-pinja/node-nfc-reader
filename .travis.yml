@@ -8,6 +8,9 @@ install:
   - npm install
   - npm install -g tsc
 
+script:
+  - npm run build -- --module commonjs
+
 addons:
   apt:
     sources:
