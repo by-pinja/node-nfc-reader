@@ -4,9 +4,11 @@
   "description": "Driver package for ACR nfc reader.",
   "main": "index.js",
   "scripts": {
+    "pretest": "npm run build",
     "test": "./node_modules/.bin/mocha ./src/**/*.test.js",
     "test-watch": "./node_modules/.bin/mocha ./src/**/*.test.js --growl --watch",
-    "build": "tsc"
+    "build": "tsc",
+    "build-watch": "tsc -w"
   },
   "repository": {
     "type": "git",
