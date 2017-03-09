@@ -7,8 +7,8 @@
     "pretest": "npm run build",
     "test": "./node_modules/.bin/mocha ./src/**/*.test.js",
     "test-watch": "./node_modules/.bin/mocha ./src/**/*.test.js --growl --watch",
-    "build": "tsc",
-    "build-watch": "tsc -w"
+    "build": "tsc --declaration ./src/index.ts",
+    "build-watch": "tsc -w --declaration ./src/index.ts"
   },
   "repository": {
     "type": "git",
@@ -24,5 +24,6 @@
     "chai": "3.5.0",
     "mocha": "3.2.0"
   },
-  "homepage": "https://github.com/ProtaconSolutions/Node-NFC-Reader#readme"
+  "homepage": "https://github.com/ProtaconSolutions/Node-NFC-Reader#readme",
+  "types": "./src/index.d.ts"
 }
