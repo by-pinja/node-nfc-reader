@@ -1,0 +1,26 @@
+{
+  "name": "acr-nfc-readerjs",
+  "version": "0.0.1",
+  "description": "Driver package for ACR nfc reader.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha ./src/**/*.test.js",
+    "test-watch": "./node_modules/.bin/mocha ./src/**/*.test.js --growl --watch",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ProtaconSolutions/Node-NFC-Reader.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ProtaconSolutions/Node-NFC-Reader/issues"
+  },
+  "devDependencies": {
+    "@types/mocha": "2.2.39",
+    "chai": "3.5.0",
+    "mocha": "3.2.0"
+  },
+  "homepage": "https://github.com/ProtaconSolutions/Node-NFC-Reader#readme"
+}
