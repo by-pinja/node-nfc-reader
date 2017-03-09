@@ -1,7 +1,10 @@
 {
     "compilerOptions": {
-        "target": "es5",
+        "target": "es2017",
         "module": "commonjs",
-        "sourceMap": true
+        "sourceMap": true,
+        "types": [
+            "node"
+         ]
     }
 }
