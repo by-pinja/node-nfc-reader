@@ -24,3 +24,10 @@ Nodejs driver package for ACR1222L NFC reader.
 npm install --global --production windows-build-tools
 npm config set msvs_version 2015 --global
 ```
+
+## How to test reader
+```
+npm run listener
+```
+
+Then show card to reader.
