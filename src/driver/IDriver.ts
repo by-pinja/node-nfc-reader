@@ -1,5 +1,5 @@
 import { DriverMessage } from './DriverMessage';
-import { Observable, Subject } from 'rx';
+import { Observable } from 'rxjs';
 
 export interface IDriver {
     listen() : Observable<DriverMessage>;

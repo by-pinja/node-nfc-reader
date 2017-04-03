@@ -1,6 +1,6 @@
 {
   "name": "node-nfc-reader",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Driver package for ACR nfc readers.",
   "main": ".src/index.js",
   "types": ".src/index.d.ts",
